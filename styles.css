@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(Background.jpg);
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.profile {
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.profile h2 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.profile p {
+    color: #666;
+}
+
+.profile {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Ajoutez une transition sur la propriété "transform" */
+}
+
+.profile:hover {
+    transform: scale(1.05); /* Appliquez un effet de zoom au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Changez l'ombre au survol */
+}
